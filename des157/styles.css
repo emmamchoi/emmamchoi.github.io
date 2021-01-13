@@ -1,0 +1,172 @@
+body {
+    background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+/********************/
+/****** Header ******/
+/********************/
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+#name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 37px;
+}
+
+/********************/
+/****** Banner ******/
+/********************/
+#banner {
+    width: 100%;
+    height: 200px;
+
+    background-color: rgb(202, 233, 243);
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+}
+
+.sq {
+
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    transform: rotate(45deg);
+
+    position: relative;
+    top: 50px;
+}
+
+.sq:hover {
+    transform:rotate(765deg);
+    transition: all 1.5s ease-in-out;
+}
+
+#s1:hover, #s5:hover {
+    border: 3px solid lightcyan;
+}
+#s2:hover, #s4:hover {
+    border: 3px solid rgb(134, 209, 219);
+}
+
+#s3:hover {
+    border: 3px solid cadetblue;
+}
+
+
+
+/***********************/
+/****** main sect ******/
+/***********************/
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sect {
+    position: relative;
+    top: 200px;
+
+    padding: 15px;
+    margin: 15px;
+
+    justify-content: space-around;
+    background-color: rgba(203, 224, 231, 0.5);
+    border: 5px solid lightslategray;
+    border-radius: 9px;
+    
+    flex: 1;
+}
+
+.sect h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 30px;
+    border-bottom: 3px solid lightslategrey;
+}
+
+a {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: darkslategray;
+}
+
+/******************/
+/***** Footer *****/
+/******************/
+
+footer {
+    position: relative;
+    top: 200px;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+
+    background-color:rgba(203, 224, 231, 0.5);
+}
+
+
+/*** media ***/
+@media (max-width: 599px) {
+
+    #banner {
+        width: 100%;
+        height: 150px;
+    }
+
+    .sq {
+        width: 50px;
+        height: 50px;
+        border: 3px solid white;
+        transform: rotate(45deg);
+    
+        position: relative;
+        top: 50px;
+    }
+
+    .sect {
+        top: 150px;
+    }
+
+    main {
+        display: block;
+    }
+
+}
+
+@media (min-width: 999px) {
+
+    main {
+        width: 1000px;
+        margin: auto;
+    }
+    
+}
