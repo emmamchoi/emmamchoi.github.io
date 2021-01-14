@@ -7,7 +7,6 @@ ul {
 }
 
 a {
-
     text-decoration: none;
 }
 
@@ -18,8 +17,14 @@ a {
 header section {
     display: flex;
     justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 0;
+    margin-left: 0;
+
+    background-color: rgba(203, 224, 231, 0.5);
+    border-bottom: 5px solid lightslategray;
+    margin-bottom: 0;
 
 }
 
@@ -44,6 +49,7 @@ section h2 {
     height: 200px;
 
     background-color: rgb(202, 233, 243);
+    border-bottom: 5px solid lightslategray;
 
     display: flex;
     justify-content: center;
@@ -52,7 +58,6 @@ section h2 {
 }
 
 .sq {
-
     width: 90px;
     height: 90px;
     border: 3px solid white;
@@ -60,6 +65,7 @@ section h2 {
 
     position: relative;
     top: 50px;
+
 }
 
 .sq:hover {
@@ -78,13 +84,46 @@ section h2 {
     border: 3px solid cadetblue;
 }
 
+#s1 {
+    animation: animation1 2s ease-out 1 alternate;
+}
+@keyframes animation1 {
+    from { left: -350px; }
+    to { left: 0; }
+}
+
+#s2 {
+    animation: animation2 2s ease-out 1;
+}
+@keyframes animation2 {
+    from { left: -180px; }
+    to { left: 0; } 
+}
+
+#s4 {
+    animation: animation4 2s ease-out 1;
+}
+@keyframes animation4 {
+    from { right: -180px; }
+    to { right: 0; } 
+}
+
+#s5 {
+    animation: animation5 2s ease-out 1;
+}
+@keyframes animation5 {
+    from { right: -350px; }
+    to { right: 0; }
+}
+
 
 
 /***********************/
 /****** main sect ******/
 /***********************/
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
 
@@ -100,14 +139,25 @@ main {
     border: 5px solid lightslategray;
     border-radius: 9px;
     
-    flex: 1;
+    /* flex: 1; */
 }
+
+#ex {
+    grid-row-end: span 2;
+}
+
+section {
+    margin: 10px;
+}
+
 
 .sect h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     font-size: 30px;
     border-bottom: 3px solid lightslategrey;
+
+    margin-top: 25px;
 }
 
 a {
@@ -127,8 +177,7 @@ footer {
 
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    width: 350px;
+    justify-content: space-around;
 
     background-color:rgba(203, 224, 231, 0.5);
 }
@@ -183,7 +232,12 @@ footer {
 
     main {
         width: 1000px;
+        display: flex;
         margin: auto;
+    }
+
+    .sect {
+        flex: 1;
     }
     
 }
