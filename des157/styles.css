@@ -116,6 +116,11 @@ section h2 {
     to { right: 0; }
 }
 
+a:hover {
+    color: steelblue;
+    text-decoration: underline;
+}
+
 
 
 /***********************/
