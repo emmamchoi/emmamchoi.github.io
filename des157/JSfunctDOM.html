@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Experiment Functions/DOM</title>
+</head>
+<body>
+    <h1>JS Functions/DOM</h1>
+
+    <script>
+        // gives random song recommendation
+        var inp = prompt("Hello, enter your name for a random song recommendation", "");
+        var songs = ["Dramaturgy by Eve", "Unknown Mother Goose by wowaka", "Outsider by Eve", "Say It by Yorushika"];
+
+        function randInt(min, max){
+            return Math.floor( (max-min+1) * Math.random() ) + min;
+        }
+
+        function randSong(name, list){
+            var i = randInt(0, list.length-1);
+            var message = `Hey ${name}, take a listen to ${list[i]}`;
+            return message;
+        }
+
+        console.log(randSong(inp, songs));
+
+    </script>
+</body>
+</html>
