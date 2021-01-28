@@ -33,6 +33,7 @@ h2 {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -40,8 +41,9 @@ article {
     background-color: rgb(140, 162, 179, 0.5);
     border: 3px solid  rgb(221, 231, 243);
     border-radius: 15px;
-
-    margin: 25px;
+    
+    margin: auto;
+    margin-bottom: 25px;
     padding: 40px;
 
     width: 600px;
@@ -85,3 +87,4 @@ footer a:hover {
 
     text-decoration: underline;
 }
+
