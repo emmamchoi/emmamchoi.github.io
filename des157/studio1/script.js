@@ -15,13 +15,11 @@
         
     });
 
-
-    // let myDiv = document.querySelector('div');
-
-    // myDiv.addEventListener('submit', function(){
-    //     myForm.scrollIntoView();
-        
-    // });
+    let toTop = document.getElementById('toTop');
+    let topP = document.getElementById('yeehaw');
+    toTop.addEventListener('click', function(){
+        topP.scrollIntoView();
+    });
 
 
 
@@ -46,7 +44,7 @@
 
     // put words in madlib    
     function makeMadLib(words){
-        var myText = `You get on your ${words[0]} horse and make your way to ${words[1]} ranch. On your way over, you run into a ${words[2]}. ${words[3]}! (might wanna add more)`;
+        var myText = `You get on your horse and make your way to ${words[0]} ranch. On your way over, you run into a ${words[1]}. ${words[2]}! You might get there a bit late. However, after giving your hourse ${words[3]}, its favorite food, you're all good to go again.`;
         
         
         myArticle.innerHTML = myText;  
