@@ -50,14 +50,28 @@ article {
 }
 
 article p {
-
     color: rgb(255, 255, 255);
 
     font-family: 'Spartan', sans-serif;
     line-height: 1.5em;
 
-
 }
+
+#tea, #plant {
+    width: 300px;
+    margin: 20px;
+    margin-left: 10px;
+
+    float: left;
+}
+
+figcaption {
+    color:  rgb(255, 255, 255);
+    font-family: 'Spartan', sans-serif;
+
+    margin: 5px;
+}
+
 
 
 footer {
