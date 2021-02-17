@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: rgb(193, 197, 209);
+
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* title */
+header {
+    background-color: rgb(144, 152, 179);
+}
+
+h1 {
+
+    margin: 50px;
+    text-align: center;
+
+    color: rgb(57, 59, 73);
+    font-weight: 700;
+}
+
+/* bg pic/figure */
+#face{
+    width: 500px;
+
+    margin-left: 400px;
+    top: 140px;
+
+    position: absolute;
+    z-index: -2;
+}
+
+/* tea pic */
+#tea {
+    
+    position: absolute;
+    z-index: -1;
+
+    margin-left: 700px;
+    top: 150px;
+
+}
+
+/* txt boxes */
+#boxes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section {
+    background-color: rgb(144, 152, 179);
+    width: 200px;
+    height: 300px;
+
+    padding: 20px;
+    margin: 25px;
+    margin-left: 50px;
+
+}
+
+#second {
+    background-color: rgb(144, 152, 179);
+
+    width: 200px;
+    height: 300px;
+
+    padding: 20px;
+    margin: 25px;
+    margin-right: 50px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+
+/* bottom pics */
+#pics {
+    background-color: rgb(108, 113, 138);
+    height: 250px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.pic {
+
+    height: 160px;
+    width: 150px;
+
+    background-color: rgb(144, 152, 179);
+
+    margin: 30px;
+}
+
+.pic img {
+    display: block;
+
+    width: 75%;
+
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+/* hover -> expand */
+
+.pic:hover {
+
+    height: 190px;
+    width: 180px;
+}
+
+
+
+/* footer */
+footer {
+    text-align: center;
+
+    margin: 20px;
+
+}
