@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+    color: #333;
+    padding: 0;
+    line-height: 1.5em;
+
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(217, 206, 228);
+    padding: 10px;
+}
+
+p {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+
+
+#game {
+    background-color:#eaeaea;
+
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 100px;
+    
+}
+
+#game p {
+    width: auto;
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+.scores {
+    border: 2px gainsboro solid;
+    position: absolute;
+    
+    width: 200px;
+
+    top: 500px;
+
+    padding: 0;
+}
+
+.scores h2 {
+    margin-top: 0;
+
+    padding: 10px;
+}
+
+.scores p {
+    width: 200px;
+}
+#p1 h2 {
+    background-color: #ffc0cb;
+} 
+
+#p2 h2 {
+    background-color: #b0e0e6;
+}
+
+#p1 {
+    left: 50px;
+}
+
+#p2 {
+    right: 50px;
+}
