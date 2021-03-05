@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: rgb(193, 197, 209);
+
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* title */
+header {
+    background-color: rgb(144, 152, 179);
+}
+
+h1 {
+
+    margin: 50px;
+    text-align: center;
+
+    color: rgb(57, 59, 73);
+    font-weight: 700;
+}
+
+/* bg pic/figure */
+#face{
+    width: 500px;
+
+    margin-left: 600px;
+    top: 140px;
+
+    position: absolute;
+    z-index: -2;
+}
+
+/* tea pic */
+#tea {
+    
+    position: absolute;
+    z-index: -1;
+
+    margin-left: 900px;
+    top: 150px;
+
+}
+
+/* txt boxes */
+#boxes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section {
+    background-color: rgb(144, 152, 179);
+    width: 200px;
+    height: 300px;
+
+    padding: 20px;
+    margin: 25px;
+    margin-left: 50px;
+
+}
+
+#second {
+    background-color: rgb(144, 152, 179);
+
+    width: 200px;
+    height: 300px;
+
+    padding: 20px;
+    margin: 25px;
+    margin-right: 50px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+#bar {
+    display: flex;
+}
+
+#left, #right {
+    margin: auto;
+}
+
+
+/* bottom pics */
+#pics {
+    background-color: rgb(108, 113, 138);
+    height: 250px;
+    width: 1050px;
+
+    margin: auto;
+    
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+
+    /* justify-content: center;
+    align-content: center; */
+
+    margin-top: 10px;
+    padding-top: 30px;
+
+    overflow: hidden;
+}
+
+.pic {
+    display: block;
+
+    background-color: rgb(144, 152, 179);
+
+    height: 160px;
+    width: 150px;
+
+    margin: 30px;
+}
+
+.pic img {
+    display: block;
+
+    width: 75%;
+
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+/* hover -> expand */
+
+.pic:hover {
+
+    height: 190px;
+    width: 180px;
+}
+
+
+
+/* footer */
+footer {
+    text-align: center;
+
+    margin: 20px;
+
+}
