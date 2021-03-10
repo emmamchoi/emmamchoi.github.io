@@ -2,7 +2,7 @@
     "use strict";
     console.log("reading js");
 
-    alert("hello! Some tasks: navigate bottom bar, check out the tea places, . ");
+    alert("hello! Some tasks: navigate bottom bar, check out the tea places, think about what catches your eye/doesn't. ");
 
     // const places = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
     const fant = document.getElementById('one');
