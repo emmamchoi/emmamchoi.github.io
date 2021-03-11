@@ -21,6 +21,14 @@ h1 {
 }
 
 /* bg pic/figure */
+#bgLogo {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    z-index: -3;
+    opacity: 60%;
+}
+
 #face{
     width: 500px;
 
@@ -56,7 +64,7 @@ section {
 
     padding: 20px;
     margin: 25px;
-    margin-left: 50px;
+    margin-left: 100px;
 
 }
 
@@ -68,16 +76,16 @@ section {
 
     padding: 20px;
     margin: 25px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 p {
     margin-top: 30px;
-    font-weight: 200;
 }
 
 #bar {
     display: flex;
+    /* position: relative; */
 }
 
 #left, #right {
@@ -86,44 +94,58 @@ p {
 
 
 /* bottom pics */
-#pics {
+#bg {
     background-color: rgb(108, 113, 138);
-    height: 250px;
+    height: 200px;
     width: 1050px;
 
     margin: auto;
     
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; */
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    
-
-    /* justify-content: center;
-    align-content: center; */
 
     margin-top: 10px;
     padding-top: 30px;
 
     overflow: hidden;
+
+    position: relative;
+    
+}
+
+#pics {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: transform 1s; 
 }
 
 .pic {
-    display: block;
+    /* display: block; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
     background-color: rgb(144, 152, 179);
 
     height: 160px;
     width: 150px;
 
-    margin: 30px;
+    margin: 30px;  
+
+
 }
 
-.pic img {
-    display: block;
+#four img { margin-top: 30px; }
+#six img {margin-top: 8px;}
+#seven img{ margin-top: 60px; }
+#eight img{ margin-top: 30px;}
+
+.pic img { 
 
     width: 75%;
 
