@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(193, 197, 209);
+    background-color: rgb(226, 242, 255);
 
     font-family: 'Spartan', sans-serif;
 }
@@ -8,7 +8,7 @@ body{
 
 /* title */
 header {
-    background-color: rgb(144, 152, 179);
+    background-color: rgb(149, 187, 231);
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
     margin: 50px;
     text-align: center;
 
-    color: rgb(57, 59, 73);
+    color: rgb(43, 43, 43);
     font-weight: 700;
 }
 
@@ -33,7 +33,7 @@ h1 {
     width: 500px;
 
     margin-left: 600px;
-    top: 140px;
+    top: 200px;
 
     position: absolute;
     z-index: -2;
@@ -58,29 +58,34 @@ h1 {
 }
 
 section {
-    background-color: rgb(144, 152, 179);
-    width: 200px;
+    background-color: rgba(225, 238, 255, 0.753);
+    border: rgb(149, 187, 231) solid 20px;
+    width: 300px;
     height: 300px;
 
-    padding: 20px;
+    padding: 30px;
     margin: 25px;
-    margin-left: 100px;
+    margin-left: 150px;
 
 }
 
 #second {
-    background-color: rgb(144, 152, 179);
 
-    width: 200px;
+    width: 250px;
     height: 300px;
 
     padding: 20px;
     margin: 25px;
-    margin-right: 100px;
+    margin-right: 150px;
+}
+
+#second img {
+    width: 300px;
 }
 
 p {
     margin-top: 30px;
+    line-height: 1.5em;
 }
 
 #bar {
@@ -92,10 +97,18 @@ p {
     margin: auto;
 }
 
+#left {
+    margin-left: 150px;
+}
+
+#right {
+    margin-right: 150px;
+}
+
 
 /* bottom pics */
 #bg {
-    background-color: rgb(108, 113, 138);
+    background-color:rgb(149, 187, 231);
     height: 200px;
     width: 1050px;
 
@@ -130,13 +143,14 @@ p {
     align-content: center;
     justify-content: center;
 
-    background-color: rgb(144, 152, 179);
+    background-color: rgba(0, 103, 187, 0.342);
 
     height: 160px;
     width: 150px;
 
     margin: 30px;  
 
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -160,6 +174,7 @@ p {
 
     height: 190px;
     width: 180px;
+
 }
 
 
