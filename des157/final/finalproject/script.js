@@ -57,13 +57,13 @@
 
         "<h2>Ume Tea</h2><p>Ume is a slightly more recent one, in the same plaza as Fantasia/Happy Lemon</p> <p>They also have some good fried tofu</p> <p>You can order <a href='http://www.umeteaca.com/'>online</a>!</p>", // ume 6
 
-        "<h2>Teaspoon</h2><p>Teaspoon started in 2015 in Los Altos, and now there's one in Davis and Cupertino</p> <p>Their tea is pretty quality, and they were one of the firsts to have those tall cups lol</p>", // tsp 7
+        "<h2>Teaspoon</h2><p>Teaspoon started in 2015 in Los Altos, and now there's one in Davis and Cupertino</p> <p>Their tea is pretty quality, and they were one of the firsts to have those tall cups lol; special drink virgin mojito</p>", // tsp 7
 
-        "<p>Mr. Sun opened up near me very recently, so it's usually quite crowded</p> <p>They make their own boba in house, and have a special drink of green tea + non-alcoholic beer- it's actually pretty good!</p>",  // mr sun 8
+        "<h2>Mr. Sun</h2><p>Mr. Sun opened up near me very recently, so it's usually quite crowded</p> <p>They make their own boba in house, and have a special drink of green tea + non-alcoholic beer- it's actually pretty good!</p>",  // mr sun 8
         
-        "<h2>T4</h2><p>T4 is another place that's surrounded by other tea places</p> <p>It's a little further, but makes for a good bike ride, and they have tofu as well</p>",  // t4 9
+        "<h2>T4</h2><p>T4 is another place that's surrounded by other tea places</p> <p>It's a little further, but is a good bike ride, and they have tofu</p> <p><a href='https://thet4.com/'>Here's</a> a general T4 site, but it doesn't show the Cupertino loc</p>",  // t4 9
         
-        "<h2>Chick & Tea</h2><p>Chick & Tea is a Taiwanese soul food place with good tea as well</p> <p>Sometimes my dad/youngest brother will pick it up after biking</p>"   // chickntea 10
+        "<h2>Chick & Tea</h2><p>Chick & Tea is a Taiwanese soul food place with good tea as well</p> <p>Sometimes my dad/youngest brother will pick it up after biking</p> <p>You can order online at multiple sites, but <a href='https://www.chickteasunnyvale.com/#'>here's</a> one that works best</p>"   // chickntea 10
     ];
 
 
