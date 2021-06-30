@@ -1,0 +1,266 @@
+body {
+    background-color: #dadfe7;
+}
+
+/*** header ***/
+header {
+    color: #3f4649;
+
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    top: 8px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+    /*** nav ***/
+nav {
+    background-color: #93a1b7;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    display: block;
+    margin: 20px;
+    display: block;
+
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    text-decoration: none;
+    text-align: center;
+    font-family: Futura;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3f4649;
+}
+
+/*** main ***/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 15px;
+    position: relative;
+}
+
+section p {
+    margin: 0;
+}
+
+/*** img titles ***/
+.title {
+    position: absolute;
+    font-family: Futura;
+    text-align: center;
+    font-size: 25px;
+
+    width: 100%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    bottom: 50px;
+
+    background-color: #93a1b7;
+    color: black;
+    opacity: 0.7;
+}
+
+.title a {
+    color: black;
+}
+
+#aid {
+    padding: 20px;
+}
+
+.title:hover {
+    opacity: 1;
+    
+}
+
+/*** bottom nav ***/
+
+
+.bnav {
+    background-color: transparent;
+}
+
+.bnav ul {
+    flex-direction: row;
+}
+
+
+.bnav ul li a:hover {
+    color:  #93a1b7;
+}
+
+/*** footer ***/
+footer {
+    flex: 100%;
+    font-size: 15px;
+    line-height: 1em;
+
+    font-family: Futura;
+
+    background-color: #93a1b7;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+/*** ab/contact ***/
+.soc {
+    font-family: Futura;
+}
+
+#icons {
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#icons a {
+    color: #3f4649;
+}
+
+#face {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/*** pages ***/
+.page {
+    font-family: Futura;
+    color: #3f4649;
+}
+
+.page h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.page p {
+    margin: 25px;
+
+    line-height: 1.5em;
+
+    font-size: 20px;
+}
+.page picture {
+    float: left;
+    margin-right: 20px;
+}
+
+#imgs {
+    margin: 20px;
+}
+
+
+/*** media ***/
+@media (max-width: 700px) {
+    nav ul {
+        list-style-type: none;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        border-bottom: 2px solid #dadfe7;
+    }
+
+    nav ul li:last-of-type {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        margin-top: 10px;
+
+        text-decoration: none;
+        text-align: center;
+        font-family: Futura;
+        font-weight: bold;
+        color: #3f4649;
+    }
+
+
+    /***page ***/
+    .page {
+        text-align: center;
+    }
+
+    .page picture {
+        float: none;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    
+    .page h2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main {
+        width: 1000px;
+        margin: auto;
+    }
+    /*** page  ***/
+
+    .page picture {
+        margin-right: 30px;
+    }
+
+    .page p {
+        font-size: 25px;
+    }
+
+    img {
+        width: 400px;
+    }
+
+}

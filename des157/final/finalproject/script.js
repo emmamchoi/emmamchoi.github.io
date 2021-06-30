@@ -49,7 +49,7 @@
 
         "<h2>Tea Era</h2><p>Tea Era's pretty close to my house, 2nd closest?</p> <p>It and RareTea are actually like right next to each other lol</p>", // tea era 2
 
-        "<h2>RareTea</h2><p>Back in Davis, this was my regular place to go!</p> <p>There's one near my house here as well (but they don't get my order right sometimes xd)</p>", // raretea 3
+        "<h2>RareTea</h2><p>Back in Davis, this was my regular place to go!</p> <p>There's one near my house here as well (but they don't get my order right sometimes xd). Similar drinks to Sharetea</p> <p></p>", // raretea 3
 
         "<h2>Happy Lemon</h2><p>There's 3 Happy Lemon locations around here, one in the same plaza as Fantasia/Ume</p> <p>They're known for their 'salted cheese foam'~</p> <p>You can order <a href='https://happylemonusa.com/'>online</a>!</p>", // happylemon 4
 
