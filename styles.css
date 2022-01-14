@@ -187,6 +187,7 @@ main {
     color: white;
     font-size: 50px;
     margin: 15px;
+    transition: all 1s;
 }
 .links:hover {
     color: lightblue;
