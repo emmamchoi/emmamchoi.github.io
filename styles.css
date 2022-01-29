@@ -167,8 +167,11 @@ main {
 }
 
 .desc {
+    font-weight: 300;
     line-height: 2.5ch;
     margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #profile {
@@ -220,6 +223,8 @@ main {
 .infoPic {
     display: block;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
     width: 700px;
 }
 
@@ -289,6 +294,9 @@ footer {
     }
 
     .infoPic, .projDiv {
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
         width: 500px;
     }
     /* logo */
@@ -407,7 +415,6 @@ footer {
     }
 
     .desc {
-        margin: auto;
         width: 400px;
     }
 
@@ -448,11 +455,13 @@ footer {
    }
     .desc {
         margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 300px;
     }
 
     .infoPic {
-        width: 350px;
+        width: 300px;
     }
 
     .smallImg {
@@ -461,7 +470,7 @@ footer {
     }
 
     .infoPic2 {
-        width: 350px;
+        width: 300px;
     }
 
     .mb {
