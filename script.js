@@ -1,6 +1,19 @@
 (function(){
     "use strict";
-    console.log("hello");
+    // console.log("hello");
+
+    // nav bar
+    var navigation = document.getElementById("nav");
+    // set to menu this menu
+    navigation.innerHTML = `<ul>
+        <li><a href="index.html">work</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="resume.html">resume</a></li>
+    </ul>`;
+
+
+
 
     // img transitions n such
     var projs = document.getElementsByClassName("proj");
@@ -8,15 +21,26 @@
     var titles = document.getElementsByClassName("imgTitle");
     
     for (let i = 0; i < projs.length; i++){
-        // when hover over img sq, title appears and img lower opacity
+        // // when hover over img sq, title appears and img lower opacity
+        // projs[i].addEventListener('mouseover', function(){
+        //     imgs[i].style.opacity = '40%';
+        //     titles[i].style.opacity = '100%';
+        // });
+        // // return when not hov
+        // projs[i].addEventListener('mouseout', function(){
+        //     imgs[i].style.opacity = '100%';
+        //     titles[i].style.opacity = '50%';
+        // });
+
+        // when hover over img sq, title disappears and img inc opacity
         projs[i].addEventListener('mouseover', function(){
-            imgs[i].style.opacity = '40%';
-            titles[i].style.opacity = '100%';
+            imgs[i].style.opacity = '100%';
+            titles[i].style.opacity = '0';
         });
         // return when not hov
         projs[i].addEventListener('mouseout', function(){
-            imgs[i].style.opacity = '100%';
-            titles[i].style.opacity = '0';
+            imgs[i].style.opacity = '40%';
+            titles[i].style.opacity = '100%';
         });
     }
 

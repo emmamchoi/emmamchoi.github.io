@@ -66,7 +66,7 @@ nav {
     padding-bottom: 20px;
 
     width: 200px;
-    height: 220px;
+    height: 280px;
 
     justify-content: center;
 
@@ -91,6 +91,14 @@ li a {
 li a:hover {
     color: lightblue;
     font-size: 24px;
+}
+
+/**********/
+/* resume */
+/**********/
+#resume {
+    height: 905px;
+    width: 700px;
 }
 
 /*********************/
@@ -120,6 +128,8 @@ main {
 .proj img {
     width: 360px;
     transition: all 1s;
+
+    opacity: 40%;
 }
 
 
@@ -135,7 +145,7 @@ main {
     padding-top: 160px;
     margin: 0;
 
-    opacity: 0;
+    opacity: 100%;
 
     transition: all 1s;
 
@@ -199,8 +209,9 @@ main {
 }
 
 
-/*********/
+/***********/
 /* contact */
+/***********/
 #links {
     display: flex;
     justify-content: center;
@@ -324,6 +335,13 @@ footer {
         width: 150px;
     }
 
+    /* resume */
+    #resume {
+        margin: auto;
+        height: 700px;
+        width: 500px;
+    }
+
     /* fashion */
     #fashionPics {
         flex-wrap: wrap;
@@ -397,13 +415,13 @@ footer {
 
     /* menu stuff */
 
-    nav { /* height 220 + top/bottom 20 padding = 260 */
+    nav { /* height 280 + top/bottom 20 padding = 320 */
         position: relative;
         text-align: center;
         margin: 0;
         width: 100%;
 
-        top: -255px;
+        top: -315px;
         z-index: 6;
     }
    
@@ -454,6 +472,7 @@ footer {
         margin: 10px;
         width: 180px;
     }
+
 }
 
 /******************/
@@ -472,6 +491,13 @@ footer {
    .projDiv {
         width: 300px;
    }
+
+   #resume {
+       margin: auto;
+       height: 400px;
+       width:300px;
+   }
+
     .desc {
         margin: auto;
         margin-top: 10px;
