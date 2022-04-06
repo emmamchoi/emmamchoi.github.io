@@ -59,7 +59,7 @@
     });
 
     back.addEventListener('click', function(){
-        nav.style.top = '-255px';
+        nav.style.top = '-315px';
         back.style.zIndex = '7';
         menu.style.zIndex = '8';
 
