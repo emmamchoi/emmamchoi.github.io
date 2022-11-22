@@ -472,7 +472,6 @@ footer {
         margin: 10px;
         width: 180px;
     }
-
 }
 
 /******************/
@@ -489,6 +488,11 @@ footer {
     }
 
    .projDiv {
+        width: 300px;
+   }
+
+   iframe {
+        height: 200px;
         width: 300px;
    }
 
