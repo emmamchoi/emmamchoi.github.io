@@ -42,6 +42,12 @@
             imgs[i].style.opacity = '40%';
             titles[i].style.opacity = '100%';
         });
+        
+        // for mobile
+        projs[i].addEventListener('mousedown', function(){
+            imgs[i].style.opacity = '40%';
+            titles[i].style.opacity = '100%';
+        });
     }
 
     var menu = document.getElementById("menu");
