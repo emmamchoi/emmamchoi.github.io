@@ -13,13 +13,13 @@
     </ul>`;
 
 
-
-
     // img transitions n such
     var projs = document.getElementsByClassName("proj");
     var imgs = document.getElementsByClassName("imgs");
     var titles = document.getElementsByClassName("imgTitle");
     
+
+
     for (let i = 0; i < projs.length; i++){
         // // when hover over img sq, title appears and img lower opacity
         // projs[i].addEventListener('mouseover', function(){
@@ -42,7 +42,7 @@
             imgs[i].style.opacity = '40%';
             titles[i].style.opacity = '100%';
         });
-        
+
         // for mobile
         projs[i].addEventListener('mousedown', function(){
             imgs[i].style.opacity = '40%';
@@ -73,7 +73,11 @@
         menu.style.opacity = '100%';
     });
 
-    
+    // footer
+    var footerDate = document.getElementsByTagName("footer");
+    // elements by tag name returns list, there should only be one footer
+    // keeping the year up to date of last update :)
+    footerDate[0].innerHTML = '<p>Emma Choi 2024</p>';
 
 
 }());
